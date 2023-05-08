@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+  <link rel="stylesheet" href="1920x1080.css">
+  <link rel="icon" href="icon.jpg">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+<body>
+<div class="bg_2" id="parallax"> 
+  <div class="tensionbars_top" id="tensionbar"></div>
+ 
+  <div class="header" id="header">
+    <h1 class="header_h1">Boris Lichev<br>An Engineer in the making</h1>
+  </div>
+  <div class="aboutme">
+    <h1 class="aboutme_h1">About Me:</h1>
+    <div class="hobbies">
+      <h2 class="hobbies_h2">Hobbies</h2>
+      <p><br><img src="/Assets/electronics_icon.png" width="60px"><br>Electronics</p>
+      <p><img src="/Assets/web-dev_icon.png" width="60px"><br>Programming</p>
+      <p><img src="/Assets/3d-modeling_icon.png" width="60px"><br>3D-modeling</p>
+      <P><img src="/Assets/gaming_icon.png" width="60px"><br>Gaming</P>
+    </div>
+    <p class="aboutme_p" style="background-color: black;"><br>I am a 21 year old student, currently studying Electronics Engineering at Technichal Unversity of Sofia, but also drawn to Programming, Web-Design, 3D Modeling/Design. When it comes to working on projects, I strive to use as little resources as possible or ones that are readily available, thus improving creativity, problem solving and improvisational skills.<br>I would describe myself as resourcefull, disciplined, considerate and genuine.<br><br>My CV - <a href="Assets/CV_Boris.pdf" target="_blank" rel="noopener noreferrer">HERE</a></p>
+     </p>
+      <img src="Me.jpg" class="pic">  
+  </div>
+
+
+
+
+  <div class="projects">
+          <!-- LEFT COLUMN -->
+    <div class="column_1">
+      <h1><br><br>An EV dashboard</h1>
+      <p>I was part of <span style="color:#ff735a; font-weight:bold">Visteon's</span> student accademy where we each get assigned a project to work and I was given the dashboard that has to be done based on set specifications and requirements. The schematic was done in Samsung's PADS Editor.
+
+        You can visit their website at https://visteon.bg<br>
+        And the complete schematic <a href="Assets/PDF_VAR3_FixedV2.pdf" target="_blank" rel="noopener noreferrer">HERE</a></p>
+
+        <iframe style="margin-top:100px" width="600px" height="350px" src="https://www.youtube.com/embed/DT086OHykL8?mute=1&controls=&playlist=DT086OHykL8&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" class="imbed"  allowfullscreen></iframe>
+        
+        <h1 style="margin-top: 200px; background-color: black;">PC Steering Wheel</h1>
+      <p style="background-color: black;">A steering wheel for racing games from a metal construction set and shelf planks. It usues an <span style="color:#ff735a; font-weight:bold">Arduino Uno</span>  board and an open source library. The biggest hurdle to overcome was the communication between the board and the computer, as the microproccessor doesn't natively support the USB protocol.</p>
+        
+
+        
+        <img src="/Assets/atx_png.png" class="atx_icon"> 
+
+
+                              <!-- RIGHT COLUMN -->
+    </div>
+    <div class="column_2"><h1>Projects</h1></div>
+    <div class="column_3"><img src="Assets/visteon_icon.png" class="visteon_logo">
+      <br>
+      <h1 style="margin-top: 120px; background-color: black;">3-Axis Accelerometer 3D Visualization in Real Time</h1>
+        <p style="background-color: black;">A <span style="color:#ff735a; font-weight:bold">GY-521</span> board connected to an Arduino Uno board and the communication is esbalished using I2C protocol. From here a a <span style="color:#ff735a; font-weight:bold">Node.js</span> app, reads the data from the port, serves static files to the front end, establishes socket connection,handles the 3D Visualization and hosts the <span style="color:#ff735a; font-weight:bold">web page</span>. This is the project I struggled the most with, as there were plenty of moving parts, most of which I had never dealt before.</p>
+
+
+      
+      <iframe style="margin-top:250px" width="600px" height="350px" src="https://www.youtube.com/embed/ex4OxLejsns?mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="imbed"  allowfullscreen></iframe>
+
+      <h1 style="margin-top: 120px; background-color: black;">A Tabletop Variable Voltage Suppy</h1>
+        <p style="background-color: black;">I bought a broken <span style="color:#ff735a; font-weight:bold">ATX power suppy</span>, fixed it , modded it so it suits my needs by having <span style="color:#ff735a; font-weight:bold">3.3V, 5V, 12V</span> and a variable voltage using a potentiometer, some LED's to indicate different states: <span style="color:#ff735a; font-weight:bold">Stand by and Power on</span>, which can be changed using a switch. I use it to power most of my curcuits I work on and experiment with.</p>
+    
+    </div>
+  </div>
+  
+ 
+
+
+
+
+
+
+<script src="myscripts.js">
+  
+</script>
+</body>
+</html>

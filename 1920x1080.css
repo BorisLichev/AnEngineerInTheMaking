@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+:root{
+  --accent-color:#ff735a;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+  scroll-behavior: smooth;
+
+}
+body{
+  background-image: url("bg_1.png");
+  
+}
+
+
+
+.bg_2{
+  height: 3000px;
+  background-image: url("bg_2.png");
+  position: relative;
+  top: 0;
+}
+.tensionbars_top{
+position: relative;
+background-image: linear-gradient(black, transparent);
+height: 300px;
+top: 0;
+z-index: 100;
+}
+
+
+.header{
+  position: absolute;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "left center right";
+  margin-top: 500px;
+  text-align: center;
+  
+}
+.header_h1{
+  grid-area:center;
+  color: white;
+  font-size: 58px;  
+}
+.aboutme{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:"left center right";
+  
+  width: 100%;
+  margin-top: 1090px;
+  text-align: center;
+}
+
+.aboutme_h1{
+  grid-area: center;
+  color:white;
+  font-size: 46px;
+  
+  
+}
+.hobbies{
+  margin-top: 25px;
+  grid-area: left;
+  color: white;
+  
+}
+.hobbies_h2{
+  font-size:38px ;
+}
+.hobbies p{
+  font-size:24px ;
+}
+.aboutme_p{
+  position: relative;
+  top: 50px;
+  grid-area: center;
+  color: white;
+  font-size: 24px;
+  height: 400px;
+}
+.pic{
+  display: block;
+  margin-left: 130px;
+  margin-top: 80px;
+  grid-area: right;
+  width: 40%;
+  border: 5px var(--accent-color) solid;
+  border-radius: 10px;
+}
+.projects{
+  display: flex;
+position: relative;
+margin-top:1800px;
+width: 100%;
+color: white;
+justify-content: space-around;
+}
+
+.column_1{
+  flex:2;
+  margin-top: 75px;
+  text-align: right;
+  padding-left: 75px;
+}
+
+.column_2{
+  flex: 1;
+  text-align: center;
+}
+
+.column_3{
+  flex: 2;
+  text-align: left;
+  
+  
+}
+.visteon_logo{
+  margin-top: 85px;
+  width: 50%;
+}
+.atx_icon{
+  margin-top: 200px;
+  margin-right: 125px;
+  width: 50%;
+
+}
+a{
+ color: var(--accent-color);
+}
+.imbed{
+  margin-top: 150px;
+  border: 5px var(--accent-color) solid;
+  border-radius: 5px;
+}
+.CV{
+  margin-top: 200px;
+  border: 3px red solid;
+  width: 50%
+}
+.CV_h1{
+  color: white;
+  text-align: center;
+}
+.CV_table{
+  color: white;
+}
+
+/* Responsiveness?? */
